@@ -1,9 +1,9 @@
 
 :root {
-    --primary-color: #ff6347; /* Coral */
-    --secondary-color: #4b0082; /* Indigo */
-    --accent-color: #ffd700; /* Gold */
-  }
+   --primary-color: hwb(336 8% 12%);
+    --secondary-color: hsl(91, 82%, 45%); 
+    --accent-color: #ffd900e8; 
+}
   
   h1 {
     font-family: 'Pacifico', cursive;
