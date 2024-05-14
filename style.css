@@ -1,10 +1,72 @@
-
 :root {
-   --primary-color:#FC4100;
-    --secondary-color:#FFC55A; 
-    --accent-color:#00215E; 
+    --primary-color: #FFC55A;
+    --secondary-color: #00215E;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-  
+
+body {
+    margin: 60px auto;
+    max-width: 800px;
+    background-color: var(--secondary-color);
+    color: white; 
+}
+
+header {
+    background-color: var(--primary-color); 
+    padding: 20px;
+}
+
+header h1 {
+    color: white; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white; /
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.card {
+    background-color: white; 
+    color: var(--secondary-color); 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+.container {
+    background-color: transparent;
+}
+
+.button {
+    background-color: var(--primary-color); 
+    color: white; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #ffa71c; 
+}
+
   h1 {
     font-family: 'Pacifico', cursive;
     font-size: 6vw;
@@ -29,11 +91,7 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
-  
-  
-  #projects {
-    background: linear-gradient(to bottom, #f0f8ff, #f0e68c); /* Gradient from AliceBlue to Khaki */
-  }
+
   
   .navigation-links a {
     margin: 1vw;
