@@ -1,8 +1,8 @@
 
 :root {
-   --primary-color: hwb(336 8% 12%);
-    --secondary-color: hsl(91, 82%, 45%); 
-    --accent-color: #ffd900e8; 
+   --primary-color:#FC4100;
+    --secondary-color:#FFC55A; 
+    --accent-color:#00215E; 
 }
   
   h1 {
